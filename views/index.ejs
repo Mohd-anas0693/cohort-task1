@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Registration Form</title>
+  <link rel="stylesheet" href="style/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <script src="/script/script.js" defer></script>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="/" method="POST" enctype="multipart/form-data">
+        <div class="user-details">
+          <p id="alert"><%=msgReg%></p>
+          
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input name="name" type="text" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input name="email" type="email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input name="phone" type="number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Upload Your Image</span>
+            <input name="image" type="file" accept="jpeg,png,jpg" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input name="password" type="password" required>
+          </div>
+          <div class="button">
+            
+           <input type="submit" value="Register">
+            <a href="/login" >Login</a>
+          </div>
+        </div>
+    </div>
+  </div>
+  </form>
+  </div>
+  </div>
+</body>
+
+</html>

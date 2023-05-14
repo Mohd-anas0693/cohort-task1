@@ -1,0 +1,13 @@
+# users.json file is the Collection of NoSQL database.
+
+# Create an database with name info.
+# Create the collection of name users in the database 
+# import user.json file into the collection. 
+
+# After implenting above steps: 
+# Run command npm install on terminal.
+# Open Browser and type "localhost:3000"
+
+
+#  Created by Mohammad Anas 
+# Email Address: mohdanaspctebca20@gmail.com

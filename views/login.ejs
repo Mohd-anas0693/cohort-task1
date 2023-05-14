@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <script src="/script/script.js" defer></script>
+  <div class="container">
+    <div class="title">Login</div>
+    
+    <div class="content">
+      <form  method="POST" action="/login" >
+        <p id="alert"><%=msgLog%></p>
+        <div class="user-details">
+       
+          <div class="input-box">
+            <span class="details">Enter Your Email Address</span>
+            <input name="email" type="email" required>
+          </div>
+          
+          <div class="input-box">
+            <span class="details">Enter Your Password</span>
+            <input name="password" type="password" required>
+          </div> 
+          <div class="button" style="margin-left:calc(50% - 3rem)">
+            <input  type='submit'>
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>
+
+  
+  </form>
+</body>
+
+</html>

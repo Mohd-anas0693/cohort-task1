@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/style/style.css" rel="stylesheet">
+  <link href="/style/profiles.css" rel="stylesheet">
+  <title>UserInfo</title>
+</head>
+
+<body>
+  <h1 class="card-text"> User Info</h1>
+  <div class="card" style="width: 29rem; margin-left: calc(50% - 12rem)">
+    <div class="card-body">
+      <section id="user-controls">
+        <a class="btn" href="/">Add a New User</a>
+      </section>
+      <section id="user-profiles">
+        <ul>
+          <li class="user-item">
+            <article>
+
+              <img src="<%=checkEmail.file%>" class="card-img-top" alt="Error">
+
+              <p class="card-text"><b>Name </b><%=checkEmail.name%></p>
+              <p class="card-text"><b>Email </b><%=checkEmail.email%></p>
+              <p class="card-text"><b>Phone </b><%=checkEmail.phone%></p>
+
+            </article>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+
+
+</body>
+
+</html>
