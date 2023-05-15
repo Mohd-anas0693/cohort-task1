@@ -3,5 +3,7 @@
  function alert(){
      alertButton.style.display='inline-block';
  }
-
- alertButton.addEventListener('click',alert());
+if(alertButton.outerText=='Password or Email  is wrong'||'Oops! This Email Account is aready registered'){
+alert();
+}
+ 
